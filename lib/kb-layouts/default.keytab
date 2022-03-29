@@ -36,7 +36,7 @@ key Return+Shift         : "\EOM"
 #
 # Backspace without CTRL sends '^H'; this matches XTerm behaviour
 # BS, hex \x08, \b
-key Backspace -Control : "\b"
+key Backspace -Control : "\x7f"
 
 # Match xterm behaviour: Backspace sends '^?' when Control is pressed
 key Backspace +Control : "\x7f"
